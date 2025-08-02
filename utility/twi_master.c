@@ -130,7 +130,7 @@ static void TWI_start_transceiver_with_data(unsigned char* msg, unsigned char me
 
   // message size too large, don't process any bytes
   if (TWI_MAX_BUFFER_SIZE < message_size) {
-    return; // MUST ERROR HANDLE LATER!!!!!!!!!!!!!!!!!!!!!!!!!!
+    return; 
   }
 
   TWI_msg_size = message_size;
