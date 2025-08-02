@@ -5,14 +5,18 @@ An Interrupt-Driven I2C driver was written using AVR C, for the ATmega328P. This
 ### main.c
 cain.c documents an example reading of the gyroscope data (angular velocity)
 
+
 ### twi_master.c 
 twi_master.c manages the AVR TWI port registers to allow for the ATmega328P to be a Master-Transceiver device in I2C
+
 
 ### mpu6050_driver.c
 mpu6050_driver.c uses twi_master.c to get MPU6050 data readings
 
+
 ### timer_16.c
 timer_16.c is an interrupt-drive 16-bit timer
+
 
 This code should be compatible with other AVR microcontrollers. 
 
