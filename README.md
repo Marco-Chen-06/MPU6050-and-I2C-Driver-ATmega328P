@@ -3,7 +3,7 @@ An Interrupt-Driven I2C driver was written using AVR C, for the ATmega328P. This
 
 ## Implementation and Example Files
 ### main.c
-cain.c documents an example reading of the gyroscope data (angular velocity)
+main.c documents an example reading of the gyroscope data (angular velocity)
 
 
 ### twi_master.c 
