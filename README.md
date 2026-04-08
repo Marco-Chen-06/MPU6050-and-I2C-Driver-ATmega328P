@@ -18,7 +18,7 @@ mpu6050_driver.c uses twi_master.c to get MPU6050 data readings
 
 
 ### timer_16.c
-timer_16.c is an interrupt-drive 16-bit timer
+timer_16.c is an interrupt-driven 16-bit timer
 
 
 # Running the Code
