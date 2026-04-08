@@ -2,6 +2,8 @@
 An Interrupt-Driven Master-Transceiver I2C driver was written using AVR C, for the ATmega328P. This I2C driver was used to make an MPU6050 driver, to read accelerometer and gyroscope data from the MPU6050 registers. An Interrupt-Driven timer library was also implemented using the AVR microcontroller's 16-bit timer. 
 This code should be compatible with other AVR microcontrollers. 
 
+This driver was written as a student resource for the benefit of Cooper Union's summer Embedded Systems course.
+
 ## Implementation and Example Files
 ### main.c
 main.c documents an example reading of the gyroscope data (angular velocity)
